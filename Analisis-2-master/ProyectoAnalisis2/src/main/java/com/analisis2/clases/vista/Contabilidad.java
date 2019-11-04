@@ -178,9 +178,9 @@ public class Contabilidad extends javax.swing.JFrame {
         jRadioButton5 = new javax.swing.JRadioButton();
         jLabel3 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setBackground(new java.awt.Color(0, 102, 102));
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        getContentPane().setLayout(null);
 
         jPanel1.setBackground(new java.awt.Color(0, 102, 102));
 
@@ -200,10 +200,10 @@ public class Contabilidad extends javax.swing.JFrame {
             }
         });
         jTable1.addInputMethodListener(new java.awt.event.InputMethodListener() {
-            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
-            }
             public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
                 jTable1InputMethodTextChanged(evt);
+            }
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
             }
         });
         jTable1.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -372,7 +372,8 @@ public class Contabilidad extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 820, 540));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 820, 540);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

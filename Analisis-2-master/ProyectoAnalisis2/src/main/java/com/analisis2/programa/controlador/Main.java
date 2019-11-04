@@ -12,8 +12,8 @@ import javax.persistence.Persistence;
 public class Main {
 
     public static void main(String[] args) {
-        //IncersionInicial i = new IncersionInicial();
-        //i.insertarDatos();
+        IncersionInicial i = new IncersionInicial();
+        i.insertarDatos();
         MenuPrincipal m = new MenuPrincipal();
         m.setVisible(true);          
        

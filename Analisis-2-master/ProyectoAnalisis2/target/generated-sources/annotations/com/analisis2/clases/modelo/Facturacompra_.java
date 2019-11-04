@@ -8,7 +8,7 @@ import javax.persistence.metamodel.CollectionAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="EclipseLink-2.7.4.v20190115-rNA", date="2019-11-02T12:52:10")
+@Generated(value="EclipseLink-2.7.4.v20190115-rNA", date="2019-11-03T22:54:41")
 @StaticMetamodel(Facturacompra.class)
 public class Facturacompra_ { 
 
